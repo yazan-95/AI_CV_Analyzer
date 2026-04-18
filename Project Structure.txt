@@ -1,0 +1,24 @@
+## 📁 Project Structure
+
+backend/ → FastAPI backend (API + analysis logic)
+frontend/ → React frontend (UI + interaction)
+screenshots/ → UI preview images
+README.md → Project documentation
+
+## 🧪 Demo Flow
+
+1. Paste CV text or upload PDF  
+2. Add job description  
+3. Click "Analyze"  
+4. View:
+   - Match score
+   - Strengths
+   - Weaknesses
+   - Missing skills
+
+## ⚠️ Limitations
+
+- Basic NLP matching (not using advanced LLMs yet)
+- PDF parsing may lose formatting
+- No user authentication or history tracking
+
