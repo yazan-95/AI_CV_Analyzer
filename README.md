@@ -68,3 +68,18 @@ uvicorn main:app --reload
 
 ### 🟢 Analysis Results
 ![Result](./screenshots/result.png)
+
+### Killing all Ports On Terminal for safer move
+pkill -f uvicorn
+
+### Restart Cleanly
+pkill -f uvicorn
+lsof -i :8000
+uvicorn app.main:app --reload
+
+###  FrontEnd Check
+npm run dev
+
+### SaaS - Software as a Service
+
+
